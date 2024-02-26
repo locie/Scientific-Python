@@ -1,0 +1,14 @@
+# Content of the repository
+
+Python notebooks can be found in the `src_EN` directory:
+
+- `EX.ipynb` are exercices
+- `EX-COR.ipynb` are exercice corrections
+- other files are the course itself
+
+The build directory contains material to build the entire PDF file `build/main.pdf`:
+
+- `main.ipynb` converts the notebooks to LaTex files
+   Requires `nbconvert`
+- `main.tex` organize these .tex files to build a single document
+   Requires a valid tex installation 

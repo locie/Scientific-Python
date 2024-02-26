@@ -1,0 +1,5 @@
+19:38 :: WARNING :: Time step 0: bad value was replaced with 0
+19:38 :: INFO :: Time step 1: good value: 1
+19:38 :: INFO :: Time step 2: good value: 2
+19:38 :: INFO :: Time step 3: good value: 6
+19:38 :: INFO :: Time step 4: good value: 8

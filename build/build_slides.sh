@@ -2,7 +2,7 @@
 
 
 
-all_notebooks=$(find ../src_EN -iname "*.ipynb" -iname "B3*" -not -iname "*checkpoint.ipynb")
+all_notebooks=$(find ../src_EN -iname "*.ipynb" -not -iname "*checkpoint.ipynb")
 
 
 for notebook_path in ${all_notebooks}
@@ -19,6 +19,7 @@ do
 	chromium --headless --print-to-pdf=${file_name}.pdf "file://$(realpath ${file_name}.slides.html)?print-pdf"
 	rm ${file_name}.slides.html
 	cd -
+	echo ""
 done
 
 

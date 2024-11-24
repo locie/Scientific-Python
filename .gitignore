@@ -1,19 +1,12 @@
 #
-#   Custom
-#
-
-build/_src_EN
-build/_src_FR
-__src_FR
-perso
-
-
-
-
-
-#
 # Python
 #
+
+
+# custom
+__src_FR/
+build/_src_EN/
+perso/
 
 
 # Byte-compiled / optimized / DLL files

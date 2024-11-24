@@ -27,7 +27,7 @@ The build directory contains material to build the PDF file:
 - `main.tex` organize these .tex files to build a single document.
 
    Requires a valid tex installation. 
-   That was tested with a `texlive` installation with some additional packages, using Linux (Mint).
+   That was tested with a full `texlive` installation (2023/Debian) and `pdflatex`.
 
 # Python requirements
 
@@ -47,7 +47,7 @@ In addition to `nbconvert`, the following packages are needed to run the code:
 
 # Author
 
-Boris Nerot - Research Engineer at LOCIE (Université Savoie Mont Blanc)
+Boris Nerot - LOCIE (Université Savoie Mont Blanc)
 
 boris.nerot@univ-smb.fr
 
